@@ -22,16 +22,18 @@
   </head>
   <body>
     <header class="header">
-      <div class="container">
+      <div class="container header-container">
         <a href="" class="link header-logo"><span class="header-pre-logo">Web</span>Studio</a>
         <nav class="header-nav">
           <ul class="list header-list">
-            <li><a href="./index.html" class="link header-link">Студия</a></li>
-            <li><a href="./portfolio.html" class="link header-link">Портфолио</a></li>
-            <li><a href="" class="link header-link">Контакты</a></li>
+            <li class="header-item"><a href="./index.html" class="link header-link">Студия</a></li>
+            <li class="header-item">
+              <a href="./portfolio.html" class="link header-link">Портфолио</a>
+            </li>
+            <li class="header-item"><a href="" class="link header-link">Контакты</a></li>
           </ul>
         </nav>
-        <ul class="list">
+        <ul class="list header-contact">
           <li>
             <a
               href="mailto:info@devstudio.com"
@@ -56,39 +58,36 @@
     <main>
       <section class="hero">
         <div class="container">
-          <h1 class="hero-title">
-            Эффективные решения для<br />
-            вашего бизнеса
-          </h1>
+          <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
           <button type="button" class="hero-btn">Заказать услугу</button>
         </div>
       </section>
       <section class="Peculiarities">
         <div class="container">
           <h2 hidden>Peculiarities</h2>
-          <ul class="list">
-            <li>
+          <ul class="list peculiarities-list">
+            <li class="peculiarities-item">
               <p class="peculiarities-title">Внимание к деталям</p>
               <p class="peculiarities-text">
-                Идейные соображения, а также начало повседневной работы по формированию позиции.
+                Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.
               </p>
             </li>
-            <li>
+            <li class="peculiarities-item">
               <p class="peculiarities-title">Пунктуальность</p>
               <p class="peculiarities-text">
-                Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
+                Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.
               </p>
             </li>
-            <li>
+            <li class="peculiarities-item">
               <p class="peculiarities-title">Планирование</p>
               <p class="peculiarities-text">
-                Равным образом консультация с широким активом в значительной степени обуславливает.
+                Так само консультація з широким активом значною мірою зумовлює.
               </p>
             </li>
-            <li>
+            <li class="peculiarities-item">
               <p class="peculiarities-title">Современные технологии</p>
               <p class="peculiarities-text">
-                Значимость этих проблем настолько очевидна, что реализация плановых заданий.
+                Значимість цих проблем настільки очевидна, що реалізація планових завдань.
               </p>
             </li>
           </ul>
@@ -97,17 +96,23 @@
       <section class="occupation">
         <div class="container">
           <h2 class="occupation-title">Чем мы занимаемся</h2>
-          <ul class="list">
-            <li><img src="./images/laptop-on-table.jpg" width="370" alt="ноутбук на столе" /></li>
-            <li><img src="./images/laptop-and-phone.jpg" width="370" alt="ноутбук и телефон" /></li>
-            <li><img src="./images/ipad.jpg" width="370" alt="планшет" /></li>
+          <ul class="list occupation-list">
+            <li class="occupation-item">
+              <img src="./images/laptop-on-table.jpg" width="370" alt="ноутбук на столе" />
+            </li>
+            <li class="occupation-item">
+              <img src="./images/laptop-and-phone.jpg" width="370" alt="ноутбук и телефон" />
+            </li>
+            <li class="occupation-item">
+              <img src="./images/ipad.jpg" width="370" alt="планшет" />
+            </li>
           </ul>
         </div>
       </section>
       <section class="team">
         <div class="container">
           <h2 class="team-title">Наша команда</h2>
-          <ul class="list">
+          <ul class="list team-list">
             <li class="team-item">
               <img class="team-img" src="./images/section-our-team-1.jpg" width="270" alt="" />
               <p class="team-first-text">Игорь Демьяненко</p>
