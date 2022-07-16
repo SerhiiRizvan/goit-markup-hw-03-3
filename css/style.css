@@ -58,6 +58,7 @@ img {
 .header {
     padding-top: 24px;
     padding-bottom: 25px;
+    border-bottom: 1px solid #ECECEC;
 }
 
 .header-container {
@@ -401,27 +402,36 @@ font-family: 'Raleway';
 }
 
 .portfolio-item {
+    flex-basis: calc(100% / 3 - 30px);
     margin-right: 30px;
     padding-bottom: 20px;
+    outline: 1px solid #EEEEEE;
 }
+
+.portfolio-item:nth-child(-n + 6) {
+    margin-bottom: 20px;
+}
+
 
 .portfolio-img {
     margin-bottom: 20px;
 }
 
 .portfolio-title {
-font-weight: 700;
-font-size: 18px;
-line-height: 2;
-letter-spacing: 0.06em;
-color: var(--header-color);
-margin-bottom: 4px;
+    padding: 0 24px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--header-color);
+    margin-bottom: 4px;
 }
 
 .portfolio-text {
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 1.88;
-        letter-spacing: 0.03em;
-        color: var(--alternative-color);
+    padding: 0 24px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: var(--alternative-color);
 }
