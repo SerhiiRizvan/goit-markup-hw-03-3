@@ -8,6 +8,23 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+p, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+ul, ol {
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    cursor: pointer;
+}
+
+img {
+    display: block;
+}
+
 .list {
     list-style: none;
 
@@ -15,6 +32,19 @@ body {
 
 .link {
     text-decoration: none;
+}
+
+.container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+    outline: 1px solid red;
+}
+
+.header {
+    padding-top: 24px;
+    padding-bottom: 25px;
 }
 
 .header-logo {
@@ -67,6 +97,8 @@ body {
 .hero {
     text-align: center;
     background-color: #2F303A;
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 
 .hero-title {
@@ -77,6 +109,7 @@ body {
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #FFFFFF;
+    margin-bottom: 30px;
 }
 
 .hero-btn {
@@ -95,6 +128,11 @@ body {
     border: none;
 }
 
+.Peculiarities {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
 .peculiarities-title {
         font-weight: 700;
         font-size: 14px;
@@ -102,6 +140,7 @@ body {
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: var(--header-color);
+        margin-bottom: 10px;
 }
 
 .peculiarities-text {
@@ -112,15 +151,26 @@ body {
         color: var(--alternative-color);
 }
 
+.occupation {
+    padding-bottom: 94px;
+}
+
 .occupation-title {
         font-size: 36px;
         line-height: 1.16;
         text-align: center;
         letter-spacing: 0.03em;
         color: var(--header-color);
+        padding-bottom: 50px;
 }
 
 .team {
+    padding-top: 94px;
+    padding-bottom: 94px;
+    background-color: #F5F4FA;
+}
+
+.team-title {
     font-size: 36px;
     line-height: 42px;
     text-align: center;
@@ -128,13 +178,22 @@ body {
     color: var(--header-color);
 }
 
-.team-title {
+.team-item {
+    padding-bottom: 30px;
+}
+
+.team-img {
+    padding-bottom: 30px;
+}
+
+.team-first-text {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
     /* text-align: center; */
     letter-spacing: 0.03em;
     color: var(--header-color);
+    padding-bottom: 10px;
 }
 
 .team-text {
@@ -148,9 +207,12 @@ body {
 
 .footer {
     background: #2F303A;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .footer-logo {
+    display: block;
 font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
@@ -158,6 +220,7 @@ font-family: 'Raleway';
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: #FFFFFF;
+    margin-bottom: 20px;
 }
 
 .footer-pre-logo {
@@ -169,7 +232,16 @@ font-family: 'Raleway';
     color: var(--focus-color);
 }
 
+.footer-item:not(:last-child) {
+    margin-bottom: 9px;
+}
+
+/* .footer-item:last-child {
+    margin-bottom: 0;
+} */
+
 .address-maps {
+    display: block;
         font-style: normal;
         font-weight: 400;
         font-size: 14px;
